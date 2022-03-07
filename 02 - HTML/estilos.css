@@ -1,0 +1,199 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #eb3d7fe7;
+    margin: 0;
+}
+
+header {
+    background-color: #c5e7f3;
+}
+
+.nav {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.list-item {
+    margin-right: 20px;
+}
+
+.list-item:last-child {
+    margin-right: 0;
+}
+
+.list-item a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #eb3d7fe7;
+}
+
+.list-item a:hover {
+    font-size: 20px;
+    text-decoration: underline;
+    color: #eb3d7fe7;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-titulo {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+main {
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.titulo-bienvenida {
+    font-size: 36px;
+    text-align: center;
+    color: #eb3d7fe7;
+    letter-spacing: 3px;
+    margin: 80px 0 50px 0;
+}
+
+.texto-bienvenida {
+    text-align: center;
+    color: #eb3d7fe7;
+    letter-spacing: 3px;
+}
+
+.img-bienvenida {
+    display: block;
+    margin: 0 auto;
+}
+
+.titulo-menu {
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.contenedor-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productos {
+    height: 180px;
+    width: 220px;
+    background-color: #c5e7f3;
+    font-weight: 600;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    cursor:all-scroll;
+}
+
+.productos p {
+    margin: 0;
+}
+
+.img-producto {
+    width: 100px;
+}
+
+form {
+    border: 1px solid #eb3d7fe7;
+    padding: 20px 100px;
+    border-style:inherit;
+    border-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-pedidos {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.titulo-armalo {
+    text-align: center;
+}
+
+.datos-personales {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.label-input label {
+    display: block;
+}
+
+.label-input input {
+    width: 300px;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.pasteles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pastel-personalizado {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-enviar {
+    align-self: center;
+    width: 100px;
+    height: 50px;
+    background-color: #c5e7f3;
+    color: #eb3d7fe7;
+    border: none;
+    border-radius: 15px;
+  
+    font-size: 14px;
+    margin: 50px 0 20px 0;
+}
+
+#inventario table {
+    margin: 0 auto;
+}
+
+#inventario table,
+th,
+td {
+    border: 1px solid #eb3d7fe7;
+    border-spacing: initial;
+}
+
+th {
+    min-width: 300px;
+}
+
+footer {
+    background-color: #c5e7f3;
+    color: #eb3d7fe7;
+}
+
+footer .contenedor {
+    width: 70vw;
+    margin: 0 auto;
+    padding: 25px 0;
+}
